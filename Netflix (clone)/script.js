@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// --- FUNCIONALIDAD DE BOTONES ---
+
 const botonReproducir = document.querySelector('.btn-banner.play');
 const botonInfo = document.querySelector('.btn-banner.info');
 
