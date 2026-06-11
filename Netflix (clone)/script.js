@@ -1,4 +1,4 @@
-// --- EFECTO NAV-BAR ---
+
 const navbar = document.getElementById('navbar');
 
 window.addEventListener('scroll', () => {
@@ -14,9 +14,9 @@ const botonReproducir = document.querySelector('.btn-banner.play');
 const botonInfo = document.querySelector('.btn-banner.info');
 
 botonReproducir.addEventListener('click', () => {
-    alert('🎬 ¡Iniciando reproducción de Stranger Things...! (Lógica conectada con éxito)');
+    alert('¡Iniciando reproducción de Stranger Things...! (Lógica conectada con éxito)');
 });
 
 botonInfo.addEventListener('click', () => {
-    alert('ℹ️ Stranger Things: Creada por los hermanos Duffer. Temporadas disponibles: 4. Género: Ciencia ficción / Drama.');
+    alert('Stranger Things: Creada por los hermanos Duffer. Temporadas disponibles: 4. Género: Ciencia ficción / Drama.');
 });
