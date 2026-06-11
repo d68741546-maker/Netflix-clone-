@@ -1,4 +1,4 @@
-/* Reset General */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Navbar Dinámica */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -45,7 +45,7 @@ body {
     cursor: pointer;
 }
 
-/* Banner Principal */
+
 .banner {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), #111), 
                       url('https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=1200&auto=format&fit=crop');
